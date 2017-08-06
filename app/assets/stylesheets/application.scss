@@ -1,0 +1,16 @@
+@import 'bootstrap';
+
+// Layout styles
+@import 'layout/reset';
+@import 'layout/colors';
+@import 'layout/layout';
+
+// Fonts
+@import 'fonts/fonts';
+
+// Modules styles
+@import 'modules/header';
+@import 'modules/sidebar';
+@import 'modules/section';
+// Home modules
+	@import 'modules/hero';

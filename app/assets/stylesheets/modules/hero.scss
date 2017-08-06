@@ -1,0 +1,57 @@
+.hero {
+	// background-image: radial-gradient(ellipse at center, #f3f4f8 30%, #ccd1e1 100%), asset-url('bg1.jpg');
+	background-image: radial-gradient(ellipse at center, #f0f0f0 50%, #999 100%), asset-url('bg3-iloveimg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-blend-mode: saturation;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.hero-content-wrapper {
+		max-width: 900px;
+		margin: 0 auto;
+		text-align: center;
+
+
+		.head,
+		.subhead {
+			color: $dark-gray;
+		}
+
+		.head {
+			font-size: 6em;
+			font-weight: 100;
+			margin-bottom: 15px;
+			letter-spacing: 0px;
+			text-transform: uppercase;
+		}
+
+		.subhead {
+			font-size: 2.4em;
+			font-weight: 100;
+			text-transform: uppercase;
+			margin-bottom: 60px;
+		}
+
+		.down-button {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100px;
+			height: 100px;
+			margin: 0 auto;
+			padding: 30px;
+			border: 4px solid $dark-gray;
+			border-radius: 50%;
+			cursor: pointer;
+			color: $dark-gray;
+			font-size: 4em;
+
+			.down-icon {
+				position: relative;
+			}
+		}
+	}
+}

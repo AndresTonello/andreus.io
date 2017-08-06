@@ -1,0 +1,35 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: $lighten-dark-gray;
+	color: $light-gray;
+	overflow: hidden;
+}
+
+.bolder {
+	font-weight: bolder;
+}
+
+.bold {
+	font-weight: 500;
+}
+
+.content-wrapper {
+	width: 100%;
+	max-width: 1230px;
+	padding: 0px 15px;
+	margin: 0 auto;
+}
+
+.page-wrapper {
+	display: flex;
+	align-items: stretch;
+
+	.sidebar-wrapper {
+	}
+
+	.sections-wrapper {
+		flex: 1;
+		max-height: 100vh;
+		overflow-y: scroll;
+	}
+}
