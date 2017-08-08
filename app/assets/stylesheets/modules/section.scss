@@ -19,7 +19,9 @@
 			font-weight: bolder;
 			color: #FFF;
 			margin-right: 15px;
-			text-decoration: underline;
+			border-bottom: 10px solid $light-gray;
+			border-radius: 15px;
+			padding: 0px 0px 5px;
 		}
 
 		.subtitle {
